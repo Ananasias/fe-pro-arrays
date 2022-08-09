@@ -39,6 +39,7 @@ const newArray = [];
     if (callback(array[i], i, array)) {
       newArray.push(array[i]);
   }
+  }
   return newArray;
 }
 
